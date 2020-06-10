@@ -8,8 +8,8 @@ Gobots wants to create a new service to suggest music to its users. The suggesti
 
 1 - Requirements:
 
-* Stable version of nodeJS.
-* Stable version of yarnpkg.
+* Stable version of [nodeJS](https://nodejs.org/en/).
+* Stable version of [yarnpkg](https://yarnpkg.com/).
 
 2 - Install backend and frontend dependencies by running `yarn install` on their directories.
 
