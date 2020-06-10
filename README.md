@@ -1,27 +1,60 @@
-# Fullstack Test
+# 🤖 **Fullstack Test - Gobots**
 
-## Context
+## 📑 Context
 
 Gobots wants to create a new service to suggest music to its users. The suggestions will depend on the city and the climate where the user is.
 
-## Task
+## 🏃 How to run it
 
-Create a micro-service able to accept RESTful requests receiving as parameter a location and returns a playlist suggestion according to the current temperature. Use any language and framework you want (Kotlin/Java + Spring, Python + Django/Flask etc), however Kotlin + Spring is recommended.
+1 - Requirements:
 
-Also create a simple frontend which sends the location to the microservice and shows the music suggestions. Use any language and framework you want (JQuery, ReactJS, Angular etc).
+* Stable version of nodeJS.
+* Stable version of yarnpkg.
 
-### Observations
- - Location can be represented as city name or lat long coordinates.
- - A playlist can be represented as a list of music names.
+2 - Install backend and frontend dependencies by running `yarn install` on their directories.
 
-## Business rules
-* If temperature (celcius) is above 30 degrees, suggest tracks for party
-* In case temperature is between 15 and 30 degrees, suggest pop music tracks
-* If it's a bit chilly (between 10 and 14 degrees), suggest rock music tracks
-* Otherwise, if it's freezing outside, suggests classical music tracks
+3 - Start the backend server by running `yarn dev:server` on it's directory.
 
-## Hints
-You can make usage of OpenWeatherMaps API (https://openweathermap.org) to fetch temperature data and Spotify (https://developer.spotify.com) to suggest the tracks as part of the playlist.
+4 - Start the frontend by running `yarn start` on it's directory.
 
-## Submission
-Fork this project and share it with your interviwer
+5 - Enjoy My Mood. :)
+
+## 📦 Project dependencies
+
+### 🔧 Backend
+
+* [axios](https://github.com/axios/axios)
+* [cors](https://expressjs.com/en/resources/middleware/cors.html)
+* [eslint](https://eslint.org/)
+* [express](https://expressjs.com/pt-br/)
+* [prettier](https://prettier.io/)
+* [ts-node-dev](https://github.com/whitecolor/ts-node-dev)
+* [typescript](https://www.typescriptlang.org/)
+* [uuidv4](https://github.com/thenativeweb/uuidv4)
+
+### 💅 Frontend
+
+* [axios](https://github.com/axios/axios)
+* [eslint](https://eslint.org/)
+* [history](https://github.com/ReactTraining/history)
+* [prettier](https://prettier.io/)
+* [react](https://github.com/facebook/react)
+* [react-dom](https://pt-br.reactjs.org/docs/react-dom.html)
+* [react-router-dom](https://reacttraining.com/react-router/web/guides/quick-start)
+* [react-scripts](https://www.npmjs.com/package/react-scripts)
+* [react-spinners](https://reacttraining.com/react-router/web/guides/quick-start)
+* [styled-components](https://styled-components.com/)
+* [typescript](https://www.typescriptlang.org/)
+* [webfontloader](https://github.com/typekit/webfontloader)
+
+## 🌟 Used API's
+
+[OpenWeather](https://openweathermap.org/).
+
+[Spotify](https://developer.spotify.com/).
+
+--------------------
+
+
+
+Proudly made by [Maurício Rodrigues](https://mrodrigs.github.io/) ⚛️
